@@ -1,5 +1,9 @@
 {{ define "main" }}
 	<main>
+		<img src="/images/china_night.jpg" alt="Night image of a chinese city">
+
+		<p> "I'm the goat" -Me </p>
+
 		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 		{{ range $paginator.Pages }}
 			{{ .Render "summary" }}
