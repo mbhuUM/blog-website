@@ -1,47 +1,9 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-	<meta name="generator" content="Hugo 0.130.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<style type=text/css>body{font-family:monospace;}</style>
-	<title>Welcome to Night City</title>
-	
-	
-	<link rel="stylesheet" href="/css/style.css">
-	
-	<link rel="alternate" type="application/rss+xml" href="/index.xml" title="Welcome to Night City">
-</head>
-<body>
-	<header>
-	===========================<br>
-	== <a href="http://localhost:1313/">Welcome to Night City</a> ==<br>
-	===========================
-	<div style="float: right;">Cyberpunk</div><br>
-	<p>
-	<nav>
-			<a href="/"><b>Start</b></a>
-            <a href="/"><b>About me</b></a>
-			
-</header>
-
-	
+{{ define "main" }}
 	<main>
-		
-		
-		<div>
-
-1 of 0
-
-</div>
-
+		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+		{{ range $paginator.Pages }}
+			{{ .Render "summary" }}
+		{{ end }}
+		{{ partial "pagination.html" . }}
 	</main>
-
-	<footer>
-	<p>&copy; 2024 <a href="http://localhost:1313/"><b>Mike</b></a>.
-	</p>
-</footer>
-
-</body>
-</html>
+{{ end }}
