@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/posts/2024-08-01-my-first-post/</guid>
       <description></description>
     </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>I attended the University of Michigan from 2020 to 2024. I graudated with a degree in CS and a minor in math. I am particularly interested in information security, software engineering, and game development.</description>
+    </item>
   </channel>
 </rss>
