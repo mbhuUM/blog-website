@@ -17,11 +17,11 @@
       <description>Welcome, I&amp;rsquo;m Mike. I attended the University of Michigan from 2020 to 2024 and graudated with a degree in CS and a minor in math. I am particularly interested in information security, software engineering, and game development.&#xA;I made this page to keep a log of certain thoughts as well as for any write ups I want to do in the future.</description>
     </item>
     <item>
-      <title>My First Post</title>
+      <title>ASSLH</title>
       <link>http://localhost:1313/posts/2024-08-01-my-first-post/</link>
       <pubDate>Thu, 01 Aug 2024 22:48:34 -0400</pubDate>
       <guid>http://localhost:1313/posts/2024-08-01-my-first-post/</guid>
-      <description></description>
+      <description>ARM/AARCH64 Strong Speculative Load Hardening LLVM already has mitigations against spectre v1 variants with speculative load-hardening (SLH). However, current research finds this is still susceptible to control flow and data leakage attacks. Ultimate SLH (USLH) was proposed in USENIX &amp;lsquo;23 which adds passes to mitigate most forms of v1 vulnerabilities that also built upon existing work named SSLH. These were specifically designed for x86 usage, as such, we developed various PoC attacks to show that ARM was vulnerable and updated the AARCH64SLH Pass to fix various vulnerabilities outlined in the paper.</description>
     </item>
   </channel>
 </rss>
