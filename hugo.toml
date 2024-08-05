@@ -20,11 +20,17 @@ copyright = "Mike"
         name = "About"
         url = "/about"
         weight = 1 
-  [[menu.main]]
+    [[menu.main]]
         identifier = "posts"
         name = "Posts"
         url = "/posts/"
-        weight = 1 
+        weight = 2
+
+    [[menu.main]]
+        identifier = "media"
+        name = "Media"
+        url = "/media/"
+        weight = 3  
 
 # Footer
   [[menu.footer]]
