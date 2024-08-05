@@ -17,13 +17,13 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-08-01T22:48:34-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/default/</loc>
-    <lastmod>2024-08-01T22:48:34-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/default/</loc>
-    <lastmod>2024-08-01T22:48:34-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-08-01T22:48:34-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/security/</loc>
+    <lastmod>2024-08-01T22:48:34-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/security/</loc>
     <lastmod>2024-08-01T22:48:34-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>

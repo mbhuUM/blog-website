@@ -1,7 +1,7 @@
 +++
 title = 'Media'
 date = 2024-08-04T20:16:55-04:00
-draft = true
+draft = false
 +++
 
 
