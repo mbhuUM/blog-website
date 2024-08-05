@@ -5,7 +5,7 @@ draft = true
 +++
 
 
-# Books I'm Currently Reading
+## Books I'm Currently Reading
     
     * Neuromancer
     * A Song of Ice and Fire - Game of Thrones
@@ -22,7 +22,7 @@ draft = true
     * The 39 Clues series - 5/5
 ------------------------------------------------------------------------- 
 
-### Games I'm playing
+## Games I'm playing
 
     * Cyberpunk 2077
     * Red Dead Redemption
@@ -31,7 +31,7 @@ draft = true
 
 ------------------------------------------------------------------------- 
 
-#### Game Scores
+## Game Scores
     * Fallout NV - 5/5
     * Fallout 4 - 3.5/5 
     * The Elder Scrolls V: Skyrim - 5/5
