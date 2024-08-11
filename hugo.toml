@@ -1,6 +1,6 @@
 baseURL = 'https://encrypted-file.zip/'
 languageCode = 'en-us'
-title = 'Welcome to Night City'
+title = 'Encrypted File'
 copyright = "Mike"
 
 
